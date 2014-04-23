@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset="utf-8">
+<title>加密</title>
+<link href="{{ STATIC_URL }}css/main.css?294" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/swfobject.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.uploadify.v2.1.4.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/functions.js?284"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/userAutoTips.js?3445"></script>
+<!--[if IE 6]>
+	<script type="text/javascript" src="{{ STATIC_URL }}images/DD_belatedPNG.js" ></script>
+	<script type="text/javascript">
+	DD_belatedPNG.fix('img,.jm,.jbutton a,.jbutton a:hover,.jm2,.jnn,.jguan');
+	</script>
+<![endif]-->
+<script type="text/javascript">
+var ptm = ptit = vtm = vdo = vtit = 0;
+$(document).ready(function() {
+        up();
+});
+function up(){
+	var r = Math.random();
+	$('#file_upload').uploadify({
+                'uploader'  : 'uploadify/uploadify.swf?v='+r,
+                'script'    : 'uploadify/uploadify.php',
+                'cancelImg' : 'uploadify/cancel.png',
+                'folder'    : 'uploads',
+                'fileExt'   : '*.jpg;*.gif;*.png',
+                'fileDesc'  : 'Image Files',
+                'hideButton' : false,
+                'buttonImg'  : '{{ STATIC_URL }}images/pic.jpg',  
+                'auto'      : true,
+                'wmode' :'transparent', 
+                'height'         : 12,  
+                'width'          : 24, 
+                'removeCompleted' : true,
+                'onComplete'  : function(event, ID, fileObj, response, data) {
+                        showPic(response, 1);
+                }
+        });
+}
+</script>
+</head>
+
+<body>
+<div id="wrap">
+	<div id="main">
+    	<div class="logo"><a href="#"><img src="{{ STATIC_URL }}images/logo.png"></a></div>
+  <div class="topnav">
+        </div>
+        <div class="jm">
+       	<div class="jmtext"><span id="remain">140</span>字</div>  
+	<div>
+            	<textarea name="ori" id="ori" class="jmm" onkeyup="gbcount(this)" onkeydown="gbcount(this)"></textarea>
+          </div>
+        </div>
+        <div class="jbutton"><a href="javascript:;" onclick="showNewLayer(1)"></a></div>
+        <div class="jm2">
+		<div class="jmtext">&nbsp;</div>
+        	<div class="jmm" id="show" name="res"></div>
+        </div>
+        <div class="jn">
+		<span class="left" style="display:block"></span>
+		<span class="mid" style="display:block;width:auto;">
+			<img class="deimg" src="{{ STATIC_URL }}images/pic.png">
+			<span class="detit" id="upic" style="width:29px;padding-top:3px;height:12px;"><input id="file_upload" name="file_upload" type="file"></span>
+			<span id="ptit" class="detit" style="display:none"></span>
+			<span class="smallclose" id="pclose" onclick="delP();up();">x</span>
+		</span>
+		<span class="mid" style="display:block;width:auto;">
+			<img class="deimg" src="{{ STATIC_URL }}images/v.png">
+<span class="detit" onclick="$('.jnn').show();$('.jnnp').hide();$('#u2').val('');$('#v_tip2').html('');" id="vimg" style="width:29px;cursor:pointer;padding-top:1px;*padding-top:3px;_padding-top:1px;">视频</span>
+			<span id="vtit" class="detit" style="display:none"></span>
+			<span class="smallclose" id="vclose" onclick="delV()">x</span>
+		</span>
+		<span style="display:block;width:auto;" class="mid">
+			<img src="{{ STATIC_URL }}images/at.png" class="deimg">
+			<span style="width:29px;cursor:pointer;padding-top:1px;*padding-top:3px;_padding-top:1px;" id="vimg" onclick="atUser()" class="detit">朋友</span>
+		</span>
+		<span class="right" style="display:block"></span>
+	</div>
+        <div class="jnn">
+        	<div class="jnm">
+            	<div class="jnx"><a href="javascript:;" onclick="$('.jnn').hide()"><img src="{{ STATIC_URL }}images/jx.jpg"></a></div>
+                <div class="jnmain">
+                	<p>输入视频网站播放页链接地址</p>
+                	<p>目前支持搜狐视频、新浪播客、优酷网、土豆网、酷6网</p>
+               	  	<p><input name="url" id="u2" type="text" class="img"><input type="button" value="" onclick="postUrl(2)" class="j3b"></p>
+			<p id="v_tip2"></p>
+                </div>
+            </div>
+        </div>
+	<!--PIC UPLOAD-->
+	<div class="jnnp">
+        	<div class="jnm">
+            	<div class="jnx"><a onclick="$('.jnnp').hide()" href="javascript:;">
+			<img src="{{ STATIC_URL }}images/jx.jpg"></a></div>
+                <div class="jnmain">
+		<ul>
+			<li style="display:inline;" onmouseover="$('#url').hide();$('#image').show();">上传</li>
+			<li style="display:inline;" onmouseover="$('#url').show();$('#image').hide();">URL</li>
+		</ul>
+		<p id="image" style="padding: 17px; width: 300px;">
+			<input id="file_upload" name="file_upload" type="file">
+		</p>
+               	  	<p style="display:none" id="url"><input type="text" class="img" id="u1" name="url"><input type="button" class="j3b" onclick="postUrl(1)" value=""></p>
+                </div>
+            </div>
+        </div>
+	<!--PIC UPLOAD END-->
+	<div id="msg"></div>
+        <div class="jfen"><a href="javascript:;" onclick="sub()" onfocus="this.blur()"><img src="{{ STATIC_URL }}images/j7.png"></a></div>
+        <div class="jguan" id="addfans">
+	<script>addFans();</script>
+        </div>
+    </div>
+</div>
+
+<div class="shade"></div>
+<div id="bgimg1"></div>
+<div class="uczt1">
+    <div class="ucztm">
+    	<h2>提示</h2>
+        <div class="ucztmx"><a href="javascript:;" onclick="hideNewLayer(1)"><img src="{{ STATIC_URL }}images/jx2.jpg"></a></div>
+        <div class="ucztmn">
+        	<p>为了方便你的好友能解开你的密语，需要你设置一个提示问题</p>
+			<div class="ucztmninput">
+				<select id="tip" onchange="if(this.value == '自定义'){ $(this).hide();$('#cus').show();}" 
+				 style="padding:4px;border:1px solid #CCC;width:300px;height:29px;" >
+				<option value=''>请选择</option>
+				<option value="我的名字叫什么？">我的名字叫什么？</option>
+				<option value="我的星座是什么？">我的星座是什么？</option>
+				<option value="我最喜欢吃什么水果？">我最喜欢吃什么水果？</option>
+				<option value="我最喜欢的明星是谁？">我最喜欢的明星是谁？</option>
+				<option value="自定义">自定义（可以自己输入提示问题）</option>
+				</select>
+				<input type="text" id="cus" style="display:none" />
+			</div>
+            <p class="t">请输入你的答案</p>
+            <div class="ucztmninput"><input type="text" name="pass" id="pass" ></div>
+            <p class="t"><span class="floatRight"><a href="javascript:;" onclick="en()"><img src="{{ STATIC_URL }}images/jq.jpg"></a></span>
+			<span id="tip_msg"></span>
+		</p>
+        </div>
+    </div>
+</div>
+<div id="bgimg5"></div>
+<div class="uczt5">
+<a class="closesuccess" href="javascript:;" onclick="hideNewLayer(5)"></a>
+<a class="gosina" href="http://weibo.com/" target="_blank">去我的微博看看</a>
+</div>
+<img  id="showimg" style="display:none" />
+<script type="text/javascript">userAutoTips({id:'ori'});</script>
+
+</body>
+</html>

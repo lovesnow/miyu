@@ -1,0 +1,15 @@
+*.pyc
+.#*
+*.mo
+*.pyo
+*.py#
+*po~
+*INFO#
+local_manage.py
+*.egg-info/*
+local_settings.py
+sae_settings.py
+migrations
+site-packages.zip
+apps/blog/static/uploads
+static/

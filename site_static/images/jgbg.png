@@ -1,0 +1,363 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="description" content="搜狗拼音输入法官网下载，荣获多个国内软件大奖的搜狗拼音输入法是一款打字超准、词库超大、速度飞快、外观漂亮、用了让您爱不释手的输入法，是您装机必备的好选择。享受输入，从搜狗开始！">  
+<title>搜狗输入法 - 拼音输入法 - 搜狗拼音输入法</title>
+<script type="text/javascript" src="/js/js_global_2.js?v=6.1"></script>
+<script language="javascript" src="/js/pb_slide.js"></script>
+<link href="/css/reset.css" type="text/css" rel="stylesheet" />
+<!--<link href="/skins/css/css4catenav.css" type="text/css" rel="stylesheet" />-->
+<link href="http://dl.pinyin.sogou.com/index/2.0/login.css" type="text/css" rel="stylesheet" />
+<style>
+
+body{ background:url(http://dl.pinyin.sogou.com/index/2.0/bg_index0.png) repeat-x;text-align: left;}
+#wrapper{ width:1000px; height:1550px; margin:auto;position:relative; }
+#head{ width:1000px; height:103px; margin:auto; }
+
+/*topnav*/
+#header{ width:1000px; height:103px; margin:auto;position:absolute;z-index:20;}
+#logo{ width:215px; height:70px; background:url(http://dl.pinyin.sogou.com/index/2.0/logo.png?1.1) no-repeat;_background:url(http://dl.pinyin.sogou.com/index/2.0/logo_ie6.png) no-repeat; position:absolute;z-index:50;top:46px;_display:inline;}
+#header_shadow { width:1000px; height:6px; background:url(http://dl.pinyin.sogou.com/index/2.0/header_shadow.png) repeat-x scroll 0 -102px transparent; position:absolute;z-index:45;top:103px;_display:inline;}
+#product{ width:1000px;height:28px; float:right;}
+#top{margin-right:100px;height:28px;width:641px;*width:627px; overflow:hidden;zoom:1; float:right; overflow:hidden;position:relative;}
+.topnav{ height:28px; overflow:hidden;zoom:1; clear:both; float:right; margin-left:65px; overflow:hidden; position:absolute;_display:inline;}
+.topnav ul li { float:left; color:#7a7a7a;font-size:12px;height:16px; margin-top:6px;_display:inline;line-height:16px;background:none !important; }
+.topnav ul li a,.topnav ul li p{ color:#7a7a7a;margin-right:15px;}
+.topnav ul li  .topnav_btn{ width:33px; height:16px; margin-top:2px;background:url(http://dl.pinyin.sogou.com/index/2.0/stretch.png) no-repeat; float:left;  margin-right:0; display:block;_display:inline;}
+.topnav a:hover{color:#ff8049;}
+
+#signup{ height:28px; float:right;_width:100px;min-width:100px;} 
+#signup ul li{ float:left; margin-left:12px; position:relative;margin-top:6px;*margin-top:7px;line-height:16px;height:16px; font-size:12px; color:#7a7a7a;_display:inline;}
+#signup ul li a{color:#7a7a7a;float:left;}
+#signup ul li a:hover{color:#ff8049;}
+#username{ width:170px;height:15px;float:left;display:block;overflow:hidden;text-align: right;white-space:nowrap;}
+
+#nav{ width:695px; height:27px; float:right;margin-top:48px;_display:inline;}
+#nav div {
+    float: left;
+    height: 27px;
+    width: 52px;
+	margin-left:37px;
+	_margin-left:27px;
+}
+#nav div a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#index {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll 0 -27px transparent;
+}
+#skin {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -72px -27px transparent;
+}
+#cell {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -151px -27px transparent;
+}
+#extend {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -228px -27px transparent;
+	width:86px !important;
+}
+#help {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -339px -27px transparent;
+}
+#log {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -417px -27px transparent;
+	width:86px !important;
+
+}
+#bbs {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -528px -27px transparent;
+}
+#usr_center {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -606px -27px transparent;
+	width:86px !important;
+}
+#index_active,#index:hover {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll 0 0 transparent;
+}
+#skin_active,#skin:hover {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -72px 0 transparent;
+}
+#cell_active,#cell:hover {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -151px 0 transparent;
+}
+#extend_active,#extend:hover {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -228px 0 transparent;
+	width:86px !important;
+}
+#help_active,#help:hover {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -339px 0 transparent;
+}
+#log_active,#log:hover {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -417px 0 transparent;
+	width:86px !important;
+}
+#bbs_active,#bbs:hover {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -528px 0 transparent;
+}
+#usr_center_active,#usr_center:hover {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -606px 0 transparent;
+	width:86px !important;
+}
+
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="head">
+		<div id="header">
+        		<div id="logo"></div>
+		<!--<div id="header_shadow"></div>-->
+               <div id="product">
+                    <div id="signup">                                                                                                
+                                                                                                     
+  
+                    	<ul>                                                                                          
+                       	<li id="nav_sign"><a href="javascript:jQuery.facybox({ajax:'/login_box2.php'});">登录</a></li>
+                        <li><p>|</p></li>
+                       	<li id="nav_zhuce"><a href="http://pinyin.sogou.com/user/signup.php">注册</a></li>        
+                        </ul>                                                                                          
+                                                                                                           
+   
+        			</div>
+			<div id="top">
+			       <div class="topnav">
+                   			<ul>
+                        	<!--		   <li><a class="topnav_btn" href="javascript:void(0);"></a></li> -->
+<li class="hanzi"><a class="topnav1" href="http://shouji.sogou.com/?r=pinyin" onclick="countPv(11)" target="_blank">输入法手机版</a></li>
+                             <li><p>|</p></li>
+<li class="hanzi"><a class="topnav2" href="http://pinyin.sogou.com/mac/?r=pinyin" onclick="countPv(12)" target="_blank">输入法Mac版</a></li>
+                                <li><p>|</p></li>
+        <li class="hanzi"><a class="topnav3" href="http://wubi.sogou.com/?r=pinyin" onclick="countPv(13)">五笔输入法</a></li>
+                                <li><p>|</p></li>
+        <li class="hanzi"><a class="topnav5" href="http://ie.sogou.com/?f=pinyingw?r=pinyin" onclick="countPv(15)">浏览器</a></li>
+                                <li><p>|</p></li>
+  <li class="hanzi"><a class="topnav6" href="http://zhushou.sogou.com/?f=pinyingw?r=pinyin" onclick="countPv(16)">手机助手</a></li>
+                                 <li><p>|</p></li>
+       <li class="hanzi"><a class="topnav7" href="http://bizhi.sogou.com/?r=pinyin" onclick="countPv(17)">壁纸</a></li>
+							</ul>
+                   		</div>
+                    </div>
+			  </div>
+              <div id="nav">
+			<div  id="index_active"><a href="/"></a></div>
+			<div id="skin"><a href="http://pinyin.sogou.com/skins/" onclick="countPv(21)"></a></div>
+			<div id="cell"><a href="http://pinyin.sogou.com/dict/" onclick="countPv(22)"></a></div>
+			<!--<div  id="extend"><a href="http://pinyin.sogou.com/extend.php"></a></div>-->
+			<div  id="help"><a href="http://pinyin.sogou.com/help.php" 	onclick="countPv(23)"></a></div>
+			<div  id="log"><a href="http://pinyin.sogou.com/changelog.php" onclick="countPv(24)"></a></div>
+			<div id="bbs"><a href="http://pinyin.sogou.com/bbs/forum.php?gid=3"onclick="countPv(25)"></a></div>
+								<div id="usr_center"><a href="javascript:jQuery.facybox({ajax:'/login_box2.php'});"onclick="countPv(26)"></a></div>
+									              </div>
+        </div>
+	</div>
+<script>
+/*
+function leftmove(){
+	 $(".topnav").animate({                                                                        
+                      marginLeft:20                                                              
+                }, 500);  
+
+}
+function rightmove(){
+	 $(".topnav").animate({                                                                        
+                      marginLeft:238                                                              
+                }, 500);  
+
+}
+$(document).ready(function(){
+ 	$(".topnav_btn").click(function(){
+		if( $(".topnav").css('marginLeft')!= "20px"){
+		leftmove();
+		$(".topnav_btn").css("background","url(http://dl.pinyin.sogou.com/index/2.0/less.png) no-repeat");
+		//pb_slide(1);
+		countPv(0);
+       }else{
+	   	rightmove();
+		$(".topnav_btn").css("background","url(http://dl.pinyin.sogou.com/index/2.0/stretch.png) no-repeat");
+	   }
+    });
+});
+*/
+</script><link href="css/home_6.6.css" type="text/css" rel="stylesheet" />
+<style>
+body{ background:url(images_new/bg_index_short.png) repeat-x;text-align: left;}
+#head{margin-bottom:30px;}
+#wrapper{height:auto;}
+
+#main {
+float:right;
+width:752px;
+}
+#sidebar {
+float:left;
+width:210px;
+}
+.selectbtn2, .selectbtn2hover {
+	width: 64px;
+	float: right;
+	margin-top: 2px;
+	display: inline;
+	height: 31px;
+	position: relative;
+	cursor: pointer;
+	font-size: 14px;
+	padding-top:2px;
+        *padding-top:3px;
+	line-height: 25px;
+	text-indent: 6px;
+	padding-left:0px;
+}
+
+.selectbtn2 {
+	color: #fff;
+	background: url(../images/5.0/selectbtn20519.gif) no-repeat 41px 8px;
+        font-weight:bold;
+}
+.selectbtn2hover {
+	background: url(../images/5.0/selectbtn2hover0519.gif) no-repeat;
+	color: #F16000;font-weight:bold;
+}
+</style>
+     <div class="changebox" style="text-align:center;">
+<embed height="376px" width="576px"  name="plugin" src="/Puzzle.swf" type="application/x-shockwave-flash">
+
+  </div>
+  <div id="footer">
+<div class="ftbox"><a href="http://pinyin.sogou.com/sitemap.xml">网站地图<a/> - <a href="http://www.sogou.com/fuwu" rel="external nofollow">企业推广</a> - <a href="http://pinyin.sogou.com/">拼音输入法</a> - <a href="http://ie.sogou.com/?f=pinyingw">搜狗浏览器</a> - <a href="http://mail.sogou.com/" rel="external nofollow">G邮箱</a> - <a href="http://hr.sogou.com/" rel="external nofollow">诚聘英才</a><br>
+&copy; 2014 SOGOU.COM <a href="http://www.miibeian.gov.cn/" rel="external nofollow" target="_blank">京ICP证050897号</a> <a href="http://www.sogou.com/docs/terms.htm">免责声明</a>
+<script type="text/javascript">
+//normal pingback
+function m_s(){c=escape((new Date().getTime())*1000+Math.round(Math.random()*1000));with(document){r=(typeof(encodeURI)=='function')?encodeURI(referrer):referrer;if(cookie.indexOf("SUV=")<0){cookie="SUV="+c+";path=/;expires=Tue, 19-Jan-2038 00:00:00 GMT;domain=sogou.com"}if(top.location==self.location){write("<scr"+"ipt src='http://pv.sogou.com/pv.gif"+"?t?="+c+"?r?="+r+"'></scr"+"ipt>")}}}var spv;if(!spv)m_s();spv=1;var m_ws03img=document.createElement('img');
+
+function m_ws01(offset) { var endstr = document.cookie.indexOf (";", offset); if (endstr == -1) endstr = document.cookie.length; return unescape(document.cookie.substring(offset, endstr)); }
+function m_ws02(name) { var arg = name + "="; var alen = arg.length; var clen = document.cookie.length; var i = 0; while (i < clen) { var j = i + alen; if (document.cookie.substring(i, j) == arg) return m_ws01(j); i = document.cookie.indexOf(" ", i) + 1; if (i == 0) break; } return ""; }
+function m_ws() {var n=new Date().getTime();var c=escape(n*1000+Math.round(Math.random()*1000));var u="";
+	with(document){if(cookie.indexOf("SMYUV=")<0)
+		{cookie="SMYUV="+c+";path=/;expires=Sun, 29 July 2046 00:00:00 UTC;domain=sogou.com";u=c;}
+		else u=m_ws02("SMYUV");
+		if(domain.indexOf("sogou.com")>=0){
+			var ref = referrer==""?m_ws02("redref"):referrer;
+			cookie="redref="+ref+";path=/;domain=.sogou.com";
+			write("<img src='http://220.181.69.113/pv.gif?t="+c+"&u="+u+"&r="+ref+"' height=1 width=1>"); }}}
+
+			//			try{
+			//				var smypv; if (!smypv) m_ws(); smypv=1;
+			//			}catch(e){}
+
+function mouseCoords(ev)
+{
+	return {
+x:ev.clientX + document.body.scrollLeft - document.body.clientLeft,
+	  y:ev.clientY + document.body.scrollTop  - document.body.clientTop
+	};
+}
+
+//获取元素的纵坐标
+function getTop(e){
+	var offset=e.offsetTop;
+	if(e.offsetParent!=null) offset+=getTop(e.offsetParent);
+	return offset;
+}
+//获取元素的横坐标
+function getLeft(e){
+	var offset=e.offsetLeft;
+	if(e.offsetParent!=null) offset+=getLeft(e.offsetParent);
+	return offset;
+}
+
+function m_ws03(evt) {
+	evt=evt?evt:window.event;
+	var srcElem=(evt.target)?evt.target:evt.srcElement;
+	var aimElem= srcElem;
+	try{
+		var is_link = false;
+		var linkname = "";
+		var address = "";
+		var valid = false;
+		while(srcElem.tagName.toUpperCase()=="A" || srcElem.tagName.toUpperCase()=="INPUT" || srcElem.tagName.toUpperCase()=="IMG") {
+			valid = true;
+			if(srcElem.tagName.toUpperCase()=="A" || srcElem.tagName.toUpperCase()=="INPUT") {
+				is_link = true;
+				linkname=srcElem.innerHTML?srcElem.innerHTML:srcElem.value;
+				address=srcElem.href?srcElem.href:srcElem.value;
+				address = escape(address);
+				aimElem = srcElem;
+				break;
+			}
+			srcElem = srcElem.parentNode;
+		}
+
+		if (valid) {
+			var mousePos = mouseCoords(evt);
+			var pos = mousePos.x + "," + mousePos.y;
+			var n=new Date().getTime();
+			var c=escape(n*1000+Math.round(Math.random()*1000));
+			var u="";var il="";var ho=0;var go="";
+			var parent = aimElem.parentNode;
+			//统计模块点击量
+			while(!parent.id){
+				parent = parent.parentNode;
+			}
+			mod = parent.id;
+			//统计元素坐标
+			epos = getLeft(aimElem) + "," + getTop(aimElem);	
+			with(document) {
+				if(cookie.indexOf("SMYUV=")<0) {
+					cookie="SMYUV="+c+";path=/;expires=Sun, 29 July 2046 00:00:00 UTC;domain=sogou.com";u=c;
+				} else {
+					u = m_ws02("SMYUV");
+				}
+				if(domain.indexOf("sogou.com")>=0)
+					m_ws03img.src="http://220.181.69.113/ct.gif?t="+c+"&u="+u+"&type="+aimElem.tagName.toUpperCase()+"&ol="+address+"&mod="+mod+"&epos="+epos+"&pos="+pos+"&lc="+escape(location.href);
+			}
+		}
+	}
+	catch(e){}
+	return true;
+}
+
+	try{
+		if (document.attachEvent)
+			document.attachEvent("onclick", m_ws03);
+		else
+			document.addEventListener("click", m_ws03, false);
+	}catch(e){}//loadtime pingback
+var lt_img=document.createElement('img');
+var url = location.href;
+var type = "index";
+if(url.indexOf("help") != -1 || url.indexOf("privacy") != -1)
+type = "help";
+else if(url.indexOf("changelog") != -1)
+type = "changelog";
+else if(url.indexOf("3years") != -1)
+type = "3years";
+var h = url.indexOf("?") == -1?url.length:url.indexOf("?");
+url = url.substring(0,h);
+var c=escape(n*1000+Math.round(Math.random()*1000));
+var m=new Date().getTime();var c=escape(m*1000+Math.round(Math.random()*1000));var u="";
+with(document){
+	var ref = referrer==""?m_ws02("redref"):referrer;
+	if(cookie.indexOf("SMYUV=")<0)
+	{cookie="SMYUV="+c+";path=/;expires=Sun, 29 July 2046 00:00:00 UTC;domain=sogou.com";u=c;}
+	else u=m_ws02("SMYUV");}
+	window.onload = function() {
+		var l = new Date().getTime();
+		// lt_img.src = "http://pinyin.sogou.com/loadtime.gif?u="+u+"&t="+(s-n) + "&t2=" + (l-n)+"&url=" + url + "&type=" + type;
+		lt_img.src = "http://pinyin.sogou.com/pv.gif?t="+c+"&u="+u+"&r="+ref+"&t="+(s-n) + "&t2=" + (l-n)+"&url=" + url + "&type=" + type;
+	}
+var s = new Date().getTime();
+</script>
+<script type="text/javascript" src="/skins/js/cnzz_sogoupyping.js?v=1.0.0"></script>  </div>
+</div>
+<script type="text/javascript">
+var load_et = new Date().getTime();
+document.getElementById("login").style.display = "none";
+document.getElementById("sign").style.display = "none";
+</script>
+</body>
+</html>

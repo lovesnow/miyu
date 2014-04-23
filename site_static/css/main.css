@@ -1,0 +1,280 @@
+* {margin:0px;padding:0px;}
+h1,h2,h3,h4,h5,h6{font-size:12px; }
+html{font-size:12px;color:#333;font-family:Tahoma,Arial;} 
+html, body{_height:100%; _overflow:auto;}
+input,textarea,select{font-size:12px;font-family:Tahoma,Arial;}
+body,textarea,select {background-color:#fff;}
+html, body{_height:100%; _overflow:auto;}
+
+.query {background:#fff;}
+a {text-decoration:none;}
+a:link {text-decoration: none;}
+a.hei {color: #000;text-decoration: none;}
+a:hover {text-decoration: underline;}
+#wrap{}
+#main{width:760px;height:860px;margin:0 auto; position:relative;background:url(../images/wrapbg.jpg) no-repeat;}
+.white{color:#FFFFFF;}
+.bold{font-weight:bold;}
+.normal{font-weight:normal;}
+.blue{color:#003399;}
+.red{color:#F00;}
+.red2{color:#CD0000}
+.red3{color:#CB0000}
+.red4{color:#CC0000;}
+.hui{color:#999999;}
+.hui2{color:#656565;}
+.hui3{color:#C0C1C1;font-family:"ËÎÌו";}
+.hei{color:#000;}
+img{border:0;}
+.absmiddle{ vertical-align:middle;}
+li{list-style:none;}
+.fontsize10px{font-size:10px;}
+.fontsize12px{font-size:12px;}
+.fontsize14px{font-size:14px;}
+.fontsize16px{font-size:16px;}
+.marginleft10px{margin-left:10px;} 
+.margintop3px{margin:3px 0 0 0;} 
+.margintop20px{margin:20px 0 0 0;} 
+.padding3{padding:8px 0 0 0;} 
+.clearfix{clear:both;font-size:0px;height:0px;}
+.clearFF{clear:both;font-size:0px;height:1px}
+.rightad{margin:10px 0 0 0;text-align:center;}
+.floatLeft{float:left;}
+.floatRight{float:right;}
+.num{font-family:Arial, Helvetica, sans-serif;}
+.margin5px{margin:5px 0 0 0;}
+div,ul,p,li{zoom:1;}
+input,select,label{vertical-align:middle}
+.buttonp{padding:0 5px;}
+.textp{padding:0 0 0 15px;#padding:0 0 0 22px;_padding:0 0 0 22px;}
+.marginl a{margin:0 0 0 10px;}
+.paddingleft10{padding-left:10px;}
+.paddingleft15{padding-left:15px;}
+.paddingleft20{padding-left:20px;}
+.paddingright10{padding-right:10px;}
+.ie6padding{_padding:10px 0 0 0;}
+
+
+.logo{ position:absolute;left:29px;top:15px;}
+.topnav{position:absolute;top:5px;right:15px;}
+.topnav ul{float:right;}
+.topnav ul li{float:left;display:inline;margin:0 6px 0 0;}
+.topnav ul li a{float:left;display:inline;height:18px;line-height:18px;background:url(../images/topnavbg.jpg);border:1px solid #858585;padding:0px 8px;color:#fff;}
+.topnav ul li.on a{background:url(../images/topnavbgon.jpg);border:1px solid #73A701;}
+
+.jm{position:absolute;left:39px;top:328px;width:298px;height:229px;background:url(../images/j4.png);}
+.jm3{
+/*background:url(../images/j44.png);*/
+background-image: url(../images/j44.png)!important;/* FF IE7 */
+background-repeat: no-repeat;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://pinyin.sogou.com/extension/miyu/images/j44.png'); /* IE6 */
+_background-image: none; /* IE6 */
+}
+.jmtext{text-align:right;color:#535353;margin:10px 10px 0 0;}
+.jmm{color:black;border:0;line-height:16px;margin:18px 0 0 15px;width:272px;height:176px;overflow:auto;}
+
+.jbutton{position:absolute;left:350px;top:411px;}
+.jbutton a{display:block;width:74px;height:75px;background:url(../images/j5.png) no-repeat;}
+.jbutton a:hover{background:url(../images/j55.png) no-repeat;}
+.jbutton2{position:absolute;left:350px;top:411px;}
+
+.jbutton2 a{display:block;width:74px;height:75px;cursor:pointer;
+background-image: url(../images/j51.png)!important;/* FF IE7 */
+background-repeat: no-repeat;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://pinyin.sogou.com/extension/miyu/images/j51.png'); /* IE6 */
+_background-image: none; /* IE6 */
+}
+
+.jbutton2 a:hover{cursor:pointer;
+background-image: url(../images/j52.png)!important;/* FF IE7 */
+background-repeat: no-repeat;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://pinyin.sogou.com/extension/miyu/images/j52.png'); /* IE6 */
+_background-image: none; /* IE6 */
+}
+
+.jm2{position:absolute;left:424px;top:328px;width:298px;height:232px;background:url(../images/j6.png);}
+.jm23{
+background-image: url(../images/j66.png)!important;/* FF IE7 */
+background-repeat: no-repeat;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://pinyin.sogou.com/extension/miyu/images/j66.png'); /* IE6 */
+_background-image: none; /* IE6 */
+}
+
+.jn{position:absolute;left:46px;top:554px;}
+.jn2{position:absolute;left:436px;top:555px;}
+.jn2m{ position:relative;width:137px;height:20px;background:url(../images/j12.png);}
+.jn2m span.t1{ position:absolute;left:39px;top:1px;*top:4px;_top:1px;color:#fff;}
+.jn2m span.t2{ position:absolute;left:90px;top:1px;*top:4px;_top:1px;color:#fff;}
+.jnnp,.jnn{display:none;position:absolute;left:76px;top:577px;width:386px;height:144px;background:url(../images/j3.png) no-repeat;z-index:1;}
+.jnn2{display:none;position:absolute;left:440px;top:572px;width:124px;height:120px;z-index:1;}
+.jnn2 img{margin:5px 0 0 4px;max-width:115px;max-height:110px;background:#C6C6C6;padding:5px;}
+.jnm{ position:relative;}
+.jnm a{color:#0082CB;}
+.jnm p{height:24px;}
+.jnx{position:absolute;right:15px;top:15px;}
+.jnmain{position:absolute;left:35px;top:35px;}
+.jnmain input.img{width:256px;height:22px;line-height:22px;}
+.j3b{background:url(../images/j3b.jpg) no-repeat;width:64px;height:23px;border:none;margin:0 0 0 5px;}
+
+.jfen{position:absolute;left:594px;top:576px;}
+.jguan{display:none;position:absolute;left:39px;top:637px;width:690px;height:125px;background:url(../images/j8-2.png) no-repeat;}
+.jguanm{ position:relative;}
+.jgb{position:absolute;left:73px;top:9px;display:block;width:66px;height:18px;line-height:18px;border:1px solid #FF5F00;background:url(../images/jgbg.jpg); text-align:center;}
+.jgb a{color:#fff;}
+.jg1{position:absolute;left:30px;top:56px;width:140px;}
+.jg2{position:absolute;left:189px;top:56px;width:169px;}
+.jg3{position:absolute;left:376px;top:56px;width:140px;}
+.jg4{position:absolute;left:538px;top:56px;width:140px;}
+.jg1l{float:left;display:inline;width:36px;}
+.jg1l img{border:1px solid #CCCCCC;}
+.jg1r{float:left;display:inline;margin:0 0 0 10px;}
+.jg1r h2{color:#0082CB;}
+.jglr p{color:#666666;}
+.jggz{border:1px solid #CFF3BB;background:#E3FFD5;float:left;display:inline;padding:0px 5px 1px 0;*padding:1px 5px 1px 0;margin:4px 0 0 0 ;}
+.jggz a{color:#0082CB;}
+.jggz2{border:1px solid #DDDDDD;background:#F3F3F3;color:#666;float:left;display:inline;padding:0px 5px 1px 0;*padding:1px 5px 1px 0;margin:4px 0 0 0 ;}
+
+.shade {
+	width:100%;
+	height:100%;
+	background-color:#000;
+	opacity:.5;
+	position:fixed;
+	left:0;
+	top:0;
+	filter:alpha(opacity=50);
+	_position:absolute;
+	_top:expression(documentElement.scrollTop);
+	z-index:101;
+	display:none
+}
+.uczt1,#bgimg1{display:none;left:21%;top:30%;position:absolute;z-index:103;}
+#bgimg1{
+width:472px;height:322px;
+background-image: url(../images/jtbg.png)!important;/* FF IE7 */
+background-repeat: no-repeat;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://pinyin.sogou.com/extension/miyu/images/jtbg.png'); /* IE6 */
+_background-image: none; /* IE6 */
+}
+.ucztm{ position:relative;width:472px;height:322px;}
+	.ucztm h2{position:absolute;top:27px;left:55px;font-size:12px;letter-spacing:17px;}	
+	.ucztmx{position:absolute;top:26px;right:19px;}	
+	.ucztmn{position:absolute;top:84px;left:82px;width:324px;}
+	.ucztmn p{}
+	.ucztmn p.t{margin:23px 0 0 0px;}
+	.ucztmninput{width:298px;height:28px;line-height:28px;border:0;margin:20px 0 0 0px;}
+	.ucztmninput input{float:left;display:inline;*margin:0px;padding:0 0 0 3px;border:1px solid #CCCCCC;height:28px;line-height:28px;width:295px;_width:295px;vertical-align:top;outline:none;}
+	.ucztmninput img{margin:4px 4px 0 0;}
+	
+.uczt2{display:none;left:20%;top:20%;position:absolute;z-index:103;}
+.ucztm2{ position:relative;width:474px;height:454px;background:url(../images/jtbg2.png) no-repeat;}
+	.ucztmx2{position:absolute;top:19px;right:20px;}	
+	.ucztmn2{position:absolute;top:47px;left:17px;width:440px;height:396px;}
+
+	
+	
+.uczt3,#bgimg3{display:none;left:21%;top:30%;position:absolute;z-index:103;}
+
+#bgimg3{
+width:472px;height:272px;
+background-image: url(../images/jtbg22.png)!important;/* FF IE7 */
+background-repeat: no-repeat;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://pinyin.sogou.com/extension/miyu/images/jtbg22.png'); /* IE6 */
+_background-image: none; /* IE6 */
+}
+
+.ucztm3{ position:relative;width:472px;height:272px;}
+	.ucztm3 h2{position:absolute;top:27px;left:45px;font-size:12px;}	
+	.ucztmx3{position:absolute;top:26px;right:19px;}	
+	.ucztmn3{position:absolute;top:70px;left:36px;width:410px;}
+	.ucztmn3 p{}
+	.ucztmn3 textarea{width:408px;height:56px;border:1px solid #ccc;}
+	.ucztmn3 p.t{margin:5px 0 0 0px;}
+	.ucztmn3 p.t1{margin:15px 0 0 0px;}
+	.green{color:#008800;}
+	
+	
+	
+	
+	
+.left,.right{
+    display: block;
+    float: left;
+    height: 17px;
+    margin-top: 2px;
+    width: 12px;
+    display:none
+}
+.left{
+	background-image: url("../images/left.png")!important;/* FF IE7 */
+	background-repeat: no-repeat;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://pinyin.sogou.com/extension/miyu/images/left.png'); /* IE6 */
+	_background-image: none; /* IE6 */
+}
+.right {
+	background-image: url("../images/right.png")!important;/* FF IE7 */
+        background-repeat: no-repeat;
+        _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://pinyin.sogou.com/extension/miyu/images/right.png'); /* IE6 */
+        _background-image: none; /* IE6 */
+}
+.mid {display:none;
+	background: url("../images/mid.png") repeat-x;/* FF IE7 */
+        background-repeat: repeat-x;
+        _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://pinyin.sogou.com/extension/miyu/images/mid.png', sizingMethod='scale'); /* IE6 */
+        _background-image: none; /* IE6 */
+float: left;height: 19px;margin-top: 2px;overflow: hidden;width: 78px;}
+.deimg{float: left; padding-top: 2px; margin-right: 2px;}
+.detit{cursor:default;white-space:nowrap;float: left; overflow: hidden; width:59px;}
+.smallclose{display:none; margin: 5px;cursor: pointer;font-weight:bold}
+#msg{ color:white;font-size:13px;font-weight:bold;left:287px;position:absolute;text-align:center;top:593px;width:200px;}
+#tip_msg,#repost_msg{color:red;}
+#v_tip2{margin-top:5px;color:red;}
+
+.uczt5,#bgimg5{
+    	height: 276px;
+    	left: 25%;
+    	position: absolute;
+    	top: 30%;
+    	width: 383px;
+    	z-index: 103;
+	display:none
+}
+#bgimg5{
+background-image: url(../images/success.png?111)!important;/* FF IE7 */
+background-repeat: no-repeat;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://pinyin.sogou.com/extension/miyu/images/success.png?111'); /* IE6 */
+_background-image: none; /* IE6 */
+}
+.gosina{ color:#FD9800;left:140px;position:relative;top:167px;font-size:15px;}
+.closesuccess { display: block;
+    height: 10px;
+    left: 350px;
+    position: absolute;
+    top: 20px;
+    width: 10px;}
+
+.recipients-tips{ font-family:Tahoma, Arial;position:absolute; background:#fff; z-index:2000; padding:2px; border:1px solid #ccc;color:#666; display:none;}
+.recipients-tips ul, .recipients-tips li {*width:150px}
+.recipients-tips li a{text-align:left;text-decoration:none;display:block; padding:5px 10px; color:#333; cursor:pointer; font-family:Tahoma, Arial;}
+.recipients-tips li a em{font-weight:700; color:#000; font-family:Tahoma, Arial;}
+.autoSelected{background:#eee; font-family:Tahoma, Arial;}
+.notClick{ cursor:default;}
+#autoUserTipsPosition{
+	/*border: 3px solid red;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
